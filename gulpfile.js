@@ -3,7 +3,6 @@ var minify = require('gulp-uglify');
 var browserify = require('gulp-browserify');
 var cleanCSS = require('gulp-clean-css');
 var babel = require('gulp-babel');
-var concat = require('gulp-concat');
 
 gulp.task('jsx', function(){
 	return gulp.src('./asset/jsx/**/*.jsx')
