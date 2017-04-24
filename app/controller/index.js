@@ -5,7 +5,7 @@ module.exports = class IndexController {
 		if(!r.cookie.has('device')) r.cookie.set({device: UserAgent(r.header('user-agent'))});
 
 		r.html('index', Object.assign(r.cookie.data, {
-			asset: 'http://localhost'
+			asset: 'http://localhost:3000'
 		}));
 	}
 }
