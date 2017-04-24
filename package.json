@@ -13,6 +13,6 @@
   "devDependencies": {
     "devtron": "^1.4.0",
     "electron": "~1.6.2",
-    "kem": "^1.1.0"
+    "kem": "^1.1.1"
   }
 }
