@@ -2,7 +2,7 @@ require('kem/dom/prototype');
 
 var {cookie, app} = require('kem/dom');
 
-function checkLogin(){
+function checkLogin(next){
 	if(cookie.has('user')) next();
 	else alert('disabled');
 }
