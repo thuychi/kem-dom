@@ -1,0 +1,28 @@
+{{ var device = this.device || 'desktop'; }}
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+	<meta charset="utf-8">
+	<meta httpequiv="X-UA-Compatible" content="IE=edge">
+	{{ if(device !== 'desktop'){ }}
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	{{ } }}
+	<title></title>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/bootstrap.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/index.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/temp.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/account.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/form.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/post.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/message.css" type="text/css"/>
+	<link rel="stylesheet" href="{{ asset }}/asset/css/m/media.css" type="text/css"/>
+	<style id="style"></style>
+</head>
+<body>
+	<div id="app"></div>
+	<span id="hide_element" style="visibility: hidden;"></span>
+	<script src="{{ asset }}/lang/{{ this.lang || 'en' }}.js"></script>
+	<script src="{{ asset }}/asset/js/{{ device }}.js"></script>
+</body>
+</html>

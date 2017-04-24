@@ -1,0 +1,43 @@
+#screen:after{content: "hhhhhhhhh";}
+
+.account-link{
+	margin-left: 10px;
+	font-size: 19px;
+	background-color: #CCCCCC;
+	padding: 2px 0px;
+	left:-2px; right: 9px;
+	text-align: center;
+}
+
+.user-info{
+	margin-left: 8px;
+	max-width: 90%;
+}
+.user-name{
+    font-weight: 200 !important;
+    font-size: 15px;
+}
+
+.user-name.post-user-name>span {
+	margin: 0px 5px;
+	font-weight: bold;
+	font-size: smaller;
+}
+
+.user-name.post-user-name>a {
+	color: #464646;
+	font-size: 15px;
+}
+.forgot-choose span:first-child>input{
+	height: 20px;
+	display: inherit !important;
+}
+.forgot-choose span:first-child{
+	width: 20px;
+	margin-left: 10px;
+	display: inline-block !important;
+}
+.forgot-choose span:last-child{
+	margin-left: 15px;
+	margin: 3px 10px;
+}

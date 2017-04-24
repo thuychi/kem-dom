@@ -1,0 +1,1 @@
+require('./phone').pushState = false;
